@@ -1,5 +1,7 @@
 public class CharacterBuilder implements Builder{
     //example of a builder class
+
+    //declare object attributes
     private CharacterClasses characterClass;
     private Weapon weapon;
     private int intelligence;
@@ -11,14 +13,10 @@ public class CharacterBuilder implements Builder{
     private Skill skill1;
     private Skill skill2;
     @Override
-    public void setCharacterClass(CharacterClasses characterClass) {
-        this.characterClass = characterClass;
-    }
+    public void setCharacterClass(CharacterClasses characterClass) {this.characterClass = characterClass;}
 
     @Override
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
-    }
+    public void setWeapon(Weapon weapon) {this.weapon = weapon;}
 
     @Override
     public void setIntelligence(int intelligence) {

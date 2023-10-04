@@ -1,5 +1,5 @@
 public interface Builder {
-    //all attributes used by an object
+    //common attributes used by an object
     void setCharacterClass(CharacterClasses characterClass);
     void setWeapon(Weapon weapon);
     void setIntelligence(int intelligence);

@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        CharacterCreator creator = new CharacterCreator();
-        CharacterBuilder builder = new CharacterBuilder();
+        CharacterCreator creator = new CharacterCreator(); //director
+        CharacterBuilder builder = new CharacterBuilder(); //builder
 
         //this is just for the character to be able to act
         CharacterStatusBuilder statusBuilder = new CharacterStatusBuilder();
